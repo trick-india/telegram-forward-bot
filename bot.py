@@ -38,7 +38,7 @@ if os.path.isfile('config.json'):
     with open('config.json', 'r') as f:
         config = json.load(f)
         if config['token'] == "":
-            sys.exit("No token defined. Define it in a file called token.txt.")
+            sys.exit("No token defined. Define it in a file called config.json.")
         if config['password'] == "":
             print("WARNING: Empty Password for registering to use the bot." +
                   " It could be dangerous, because anybody could use this bot" +
