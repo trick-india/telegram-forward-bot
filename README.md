@@ -22,7 +22,7 @@ finally, configure the bot, adding it on all the groups you want to connect
 ## How to use
 
 1. You need to add yourself to the authorized list of the bot typing `/addme {password}`, where the password is the string set on bot configuration (see previous section for more details).
-1. If you want to delete your permissions from the bot, you can type `/rmme`. Then you won't be able to send commands to te bot (except for `/addme`)
+1. If you want to delete your permissions from the bot, you can type `/rmme`. Then you won't be able to send commands to the bot (except for `/addme`)
 1. You can use `/taglist` for a list of tags registered to the bot, and the group/channel/private chat's names
 1. You cand add a tag to a group using `/add #{tag}`. You can remove the tag using `/rm #{tag}`.
 1. If you want to send a message/file/image/other to another group, you should add the tags **at the start** of the message or caption. you can add more than one tag if you want to.
